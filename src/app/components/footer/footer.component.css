@@ -1,0 +1,14 @@
+.footer__text{
+  padding: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+@media(max-width: 768px){
+
+  .footer__text{
+    display: grid;
+  }
+}
