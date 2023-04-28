@@ -51,3 +51,14 @@
 .average ng-icon {
   line-height: 0;
 }
+
+@media(max-width: 768px){
+
+  .filme__wrapper {
+    grid-template-columns: none
+  }
+
+  .filme__poster {
+    width: 171px;
+  }
+}
